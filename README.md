@@ -12,11 +12,11 @@ A GML Starter kit for the **Platformer Tutorial (GML) - Parts 1 & 2**
 * All I have provided are the assets from the tutorial and the preferences for GML code (not visual).
 * My goal is to provide a template that a student can clone to follow along with Shaun and practice using Source Control Management along the way.
 
-***Nunctions***
+***Functions***
 
-*Simple platformer game from tutorial.
-*Character with full animations
-*Short platform course.
+* Simple platformer game from tutorial.
+* Character with full animations.
+* Short platform course.
 
 ## Credits
 The assets and video tutorials were created by [Shaun Spalding](https://www.youtube.com/c/ShaunSpalding).
