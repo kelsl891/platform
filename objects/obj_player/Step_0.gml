@@ -1,4 +1,4 @@
-/// @desc Core Player Logic
+ /// @desc Core Player Logic
 
 //get player inputs
 key_left = keyboard_check(vk_left);
@@ -57,4 +57,4 @@ if(!place_meeting(x,y+1,obj_invisible_wall))
 	}
 }
 
-if(hsp != 0) image_xscale = sign(hsp);
+//if(hsp != 0) image_xscale = sign(hsp);
