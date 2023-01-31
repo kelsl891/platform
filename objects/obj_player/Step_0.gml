@@ -26,6 +26,7 @@ if(place_meeting(x+hsp,y,obj_invisible_wall))
 		x=x+sign(hsp);
 	}
 	hsp=0;
+	jumpsp=7;
 }
 x=x+hsp;
 //Verical collision
@@ -37,8 +38,10 @@ if(place_meeting(x,y+vsp,obj_invisible_wall))
 		y=y+sign(vsp);
 	}
 	vsp=0;
+	jumpsp=7;
 }
 y=y+vsp;
+
 
 //Animation
 
@@ -57,4 +60,4 @@ if(!place_meeting(x,y+1,obj_invisible_wall))
 	}
 }
 
-//if(hsp != 0) image_xscale = sign(hsp);
+if(hsp != 0) image_xscale = (sign(hsp)/4);
